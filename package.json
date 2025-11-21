@@ -17,7 +17,7 @@
     "start": "next start"
   },
   "engines": {
-    "node": ">=18"
+    "node": "18.x"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
