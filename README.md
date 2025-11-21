@@ -34,7 +34,7 @@
 
 ## 🚀 Demo
 
-🌐 [**View Live Demo**](https://s10-modern-portfolio.vercel.app)
+🌐 [**View Live Demo**](https://sunny-editorax.vercel.app/)
 
 ---
 
