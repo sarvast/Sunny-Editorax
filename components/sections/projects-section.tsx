@@ -73,6 +73,28 @@ export default function ProjectsSection() {
                 </div>
               </div>
             </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.6, duration: 0.8 }}
+              className="w-full max-w-sm"
+            >
+              <div className="relative rounded-lg overflow-hidden shadow-lg bg-black pt-[177.78%]">
+                <div className="absolute inset-0">
+                  <YouTube
+                    videoId="v61-EODLiq4"
+                    className="w-full h-full"
+                    iframeClassName="w-full h-full"
+                    opts={{
+                      width: "100%",
+                      height: "100%",
+                      playerVars: { autoplay: 0, controls: 1, rel: 0, modestbranding: 1, playsinline: 1 },
+                    }}
+                  />
+                </div>
+              </div>
+            </motion.div>
           </div>
 
           {/* Wider videos below */}
@@ -131,6 +153,50 @@ export default function ProjectsSection() {
                 </div>
               </div>
             </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.0, duration: 0.8 }}
+                className="mx-auto max-w-4xl"
+              >
+                <div className="relative pt-[56.25%] rounded-lg overflow-hidden shadow-lg bg-black">
+                  <div className="absolute inset-0">
+                    <YouTube
+                      videoId="dvGidwOa9yU"
+                      className="w-full h-full"
+                      iframeClassName="w-full h-full"
+                      opts={{
+                        width: "100%",
+                        height: "100%",
+                        playerVars: { autoplay: 0, controls: 1, rel: 0, modestbranding: 1, playsinline: 1 },
+                      }}
+                    />
+                  </div>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.2, duration: 0.8 }}
+                className="mx-auto max-w-4xl"
+              >
+                <div className="relative pt-[56.25%] rounded-lg overflow-hidden shadow-lg bg-black">
+                  <div className="absolute inset-0">
+                    <YouTube
+                      videoId="vPDqYLUYR4Q"
+                      className="w-full h-full"
+                      iframeClassName="w-full h-full"
+                      opts={{
+                        width: "100%",
+                        height: "100%",
+                        playerVars: { autoplay: 0, controls: 1, rel: 0, modestbranding: 1, playsinline: 1 },
+                      }}
+                    />
+                  </div>
+                </div>
+              </motion.div>
           </div>
         </div>
       </div>
