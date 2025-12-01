@@ -39,7 +39,7 @@ export default function ProjectsSection() {
               <div className="relative rounded-lg overflow-hidden shadow-lg bg-black pt-[177.78%]">
                 <div className="absolute inset-0">
                   <YouTube
-                    videoId="RbOFBuzeVKs"
+                    videoId="ITl8-9I0IP8"
                     className="w-full h-full"
                     iframeClassName="w-full h-full"
                     opts={{
@@ -61,7 +61,29 @@ export default function ProjectsSection() {
               <div className="relative rounded-lg overflow-hidden shadow-lg bg-black pt-[177.78%]">
                 <div className="absolute inset-0">
                   <YouTube
-                    videoId="TIeluvOgSSI"
+                    videoId="eeypiH0MP7w"
+                    className="w-full h-full"
+                    iframeClassName="w-full h-full"
+                    opts={{
+                      width: "100%",
+                      height: "100%",
+                      playerVars: { autoplay: 0, controls: 1, rel: 0, modestbranding: 1, playsinline: 1 },
+                    }}
+                  />
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.6, duration: 0.8 }}
+              className="w-full max-w-sm"
+            >
+              <div className="relative rounded-lg overflow-hidden shadow-lg bg-black pt-[177.78%]">
+                <div className="absolute inset-0">
+                  <YouTube
+                    videoId="RbOFBuzeVKs"
                     className="w-full h-full"
                     iframeClassName="w-full h-full"
                     opts={{
@@ -77,7 +99,29 @@ export default function ProjectsSection() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6, duration: 0.8 }}
+              transition={{ delay: 0.8, duration: 0.8 }}
+              className="w-full max-w-sm"
+            >
+              <div className="relative rounded-lg overflow-hidden shadow-lg bg-black pt-[177.78%]">
+                <div className="absolute inset-0">
+                  <YouTube
+                    videoId="TIeluvOgSSI"
+                    className="w-full h-full"
+                    iframeClassName="w-full h-full"
+                    opts={{
+                      width: "100%",
+                      height: "100%",
+                      playerVars: { autoplay: 0, controls: 1, rel: 0, modestbranding: 1, playsinline: 1 },
+                    }}
+                  />
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.0, duration: 0.8 }}
               className="w-full max-w-sm"
             >
               <div className="relative rounded-lg overflow-hidden shadow-lg bg-black pt-[177.78%]">
@@ -102,7 +146,7 @@ export default function ProjectsSection() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6, duration: 0.8 }}
+              transition={{ delay: 1.2, duration: 0.8 }}
               className="mx-auto max-w-4xl"
             >
               <div className="relative pt-[56.25%] rounded-lg overflow-hidden shadow-lg bg-black">
@@ -135,7 +179,7 @@ export default function ProjectsSection() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.8, duration: 0.8 }}
+              transition={{ delay: 1.4, duration: 0.8 }}
               className="mx-auto max-w-4xl"
             >
               <div className="relative pt-[56.25%] rounded-lg overflow-hidden shadow-lg bg-black">
@@ -157,7 +201,7 @@ export default function ProjectsSection() {
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.0, duration: 0.8 }}
+                transition={{ delay: 1.6, duration: 0.8 }}
                 className="mx-auto max-w-4xl"
               >
                 <div className="relative pt-[56.25%] rounded-lg overflow-hidden shadow-lg bg-black">
@@ -179,7 +223,7 @@ export default function ProjectsSection() {
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.2, duration: 0.8 }}
+                transition={{ delay: 1.8, duration: 0.8 }}
                 className="mx-auto max-w-4xl"
               >
                 <div className="relative pt-[56.25%] rounded-lg overflow-hidden shadow-lg bg-black">
