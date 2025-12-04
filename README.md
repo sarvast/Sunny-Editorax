@@ -1,6 +1,6 @@
-# 🎬 SUNNY EDITORX - Professional Video Editor Portfolio
+# 🎬 SUNNY EDITORAX - Professional Video Editor Portfolio
 
-A stunning, modern portfolio website for **SUNNY EDITORX**, a professional video editor specializing in **Instagram Reels**, **YouTube Shorts**, and **TikTok** content. Built with cutting-edge web technologies including Next.js 15, Three.js 3D effects, and smooth animations.
+A stunning, modern portfolio website for **SUNNY EDITORAX**, a professional video editor specializing in **Instagram Reels**, **YouTube Shorts**, and **TikTok** content. Built with cutting-edge web technologies including Next.js 15, Three.js 3D effects, and smooth animations.
 
 [![Live](https://img.shields.io/badge/Live-orange?style=for-the-badge)](https://sunny-editorax.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
@@ -261,10 +261,10 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-**SUNNY EDITORX**
+**SUNNY EDITORAX**
 - Portfolio: [https://sunny-editorax.vercel.app/](https://sunny-editorax.vercel.app/)
 - WhatsApp: +91 7518608357
-- Twitter: [@sunnyeditorx](https://twitter.com/sunnyeditorx)
+- Twitter: [@sunnyeditorax](https://twitter.com/sunnyeditorax)
 
 ---
 

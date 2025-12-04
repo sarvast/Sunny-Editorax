@@ -13,7 +13,7 @@ const sora = Sora({
 })
 
 export const metadata: Metadata = {
-  title: "SUNNY EDITORX - Professional Video Editor Portfolio",
+  title: "SUNNY EDITORAX - Professional Video Editor Portfolio",
   description: "Professional Video Editor specializing in Instagram Reels, YouTube Shorts & TikTok content. 500+ videos created, 25+ viral hits with 1M+ views.",
   keywords: [
     "video editor", 
@@ -25,21 +25,21 @@ export const metadata: Metadata = {
     "viral videos", 
     "social media videos",
     "video editing services",
-    "sunny editorx"
+    "sunny editorax"
   ],
-  authors: [{ name: "SUNNY EDITORX" }],
+  authors: [{ name: "SUNNY EDITORAX" }],
   openGraph: {
-    title: "SUNNY EDITORX - Professional Video Editor",
+    title: "SUNNY EDITORAX - Professional Video Editor",
     description: "Professional Video Editor specializing in Instagram Reels, YouTube Shorts & TikTok content. 500+ videos created, 25+ viral hits with 1M+ views.",
     type: "website",
-    siteName: "SUNNY EDITORX Portfolio",
+    siteName: "SUNNY EDITORAX Portfolio",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "SUNNY EDITORX - Professional Video Editor",
+    title: "SUNNY EDITORAX - Professional Video Editor",
     description: "Professional Video Editor specializing in Instagram Reels, YouTube Shorts & TikTok content.",
-    creator: "@sunnyeditorx",
+    creator: "@sunnyeditorax",
   },
   robots: {
     index: true,
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   verification: {
     google: 'google-site-verification-code',
   },
-  generator: 'SUNNY EDITORX Portfolio'
+  generator: 'SUNNY EDITORAX Portfolio'
 }
 
 export default function RootLayout({

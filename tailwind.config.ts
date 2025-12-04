@@ -25,7 +25,7 @@ const config: Config = {
         times: ["Times New Roman", "serif"],
       },
       colors: {
-        // SUNNY EDITORX Video Editor Brand Colors
+        // SUNNY EDITORAX Video Editor Brand Colors
         brand: {
           orange: "#f97316", // Main brand orange
           blue: "#0ea5e9",   // Accent blue

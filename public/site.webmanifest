@@ -1,11 +1,11 @@
 {
-  "name": "SUNNY EDITORX Portfolio",
+  "name": "SUNNY EDITORAX Portfolio",
   "short_name": "SUNNY",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#06b6d4",
-  "description": "Video-first portfolio for SUNNY EDITORX",
+  "description": "Video-first portfolio for SUNNY EDITORAX",
   "icons": [
     {
       "src": "/icons/instagram.svg",

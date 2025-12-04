@@ -62,7 +62,7 @@ export default function ContactSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-6xl font-bold mb-6 liquid-gradient font-sora">Work With SUNNY EDITORX</h2>
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 liquid-gradient font-sora">Work With SUNNY EDITORAX</h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
             Need scroll-stopping short videos? Tell me about your project — format, length, target platform and goals,
             and I'll deliver a fast-turnaround edit tailored for engagement.
@@ -199,7 +199,7 @@ export default function ContactSection() {
           className="mt-20 pt-8 border-t border-white/10 text-center"
         >
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="text-white/60">© 2025 SUNNY EDITORX. Crafted with ❤️ for social-first video.</div>
+            <div className="text-white/60">© 2025 SUNNY EDITORAX. Crafted with ❤️ for social-first video.</div>
 
             <div className="flex items-center gap-4">
               <div className="w-16 h-1 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full animate-pulse" />

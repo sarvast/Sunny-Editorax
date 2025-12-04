@@ -83,9 +83,9 @@ const nextConfig = {
 
   // Environment variables for video editor portfolio
   env: {
-    SITE_NAME: 'SUNNY EDITORX',
+    SITE_NAME: 'SUNNY EDITORAX',
     SITE_DESCRIPTION: 'Professional Video Editor specializing in Instagram Reels & YouTube Shorts',
-    SITE_URL: process.env.NODE_ENV === 'production' ? 'https://sunnyeditorx.com' : 'http://localhost:3000',
+    SITE_URL: process.env.NODE_ENV === 'production' ? 'https://sunny-editorax.com' : 'http://localhost:3000',
   },
 
   // Compile optimizations
