@@ -105,7 +105,7 @@ export default function ProjectsSection() {
               <div className="relative rounded-lg overflow-hidden shadow-lg bg-black pt-[177.78%]">
                 <div className="absolute inset-0">
                   <YouTube
-                    videoId="TIeluvOgSSI"
+                    videoId="v61-EODLiq4"
                     className="w-full h-full"
                     iframeClassName="w-full h-full"
                     opts={{
@@ -127,28 +127,6 @@ export default function ProjectsSection() {
               <div className="relative rounded-lg overflow-hidden shadow-lg bg-black pt-[177.78%]">
                 <div className="absolute inset-0">
                   <YouTube
-                    videoId="v61-EODLiq4"
-                    className="w-full h-full"
-                    iframeClassName="w-full h-full"
-                    opts={{
-                      width: "100%",
-                      height: "100%",
-                      playerVars: { autoplay: 0, controls: 1, rel: 0, modestbranding: 1, playsinline: 1 },
-                    }}
-                  />
-                </div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.2, duration: 0.8 }}
-              className="w-full max-w-sm"
-            >
-              <div className="relative rounded-lg overflow-hidden shadow-lg bg-black pt-[177.78%]">
-                <div className="absolute inset-0">
-                  <YouTube
                     videoId="zBG1zMDbrKc"
                     className="w-full h-full"
                     iframeClassName="w-full h-full"
@@ -165,7 +143,7 @@ export default function ProjectsSection() {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.4, duration: 0.8 }}
+              transition={{ delay: 1.2, duration: 0.8 }}
               className="w-full max-w-sm"
             >
               <div className="relative rounded-lg overflow-hidden shadow-lg bg-black pt-[177.78%]">
