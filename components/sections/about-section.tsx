@@ -14,7 +14,7 @@ export default function AboutSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-6xl font-bold mb-6 liquid-gradient font-sora">About SUNNY EDITORAX</h2>
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 liquid-gradient font-sora">About SUNNY SHARMA</h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto">
             SUNNY EDITORAX is a specialist in short-form social video — Instagram Reels, YouTube Shorts and TikTok. I
             focus on fast storytelling, rhythm-based edits, and vertical-first visuals that increase watch time and
