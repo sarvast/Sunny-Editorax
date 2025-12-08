@@ -1,11 +1,8 @@
 "use client"
 
-import { useState } from "react"
 import { motion } from "framer-motion"
 
 export default function ProjectsSection() {
-  const [selectedFilter, setSelectedFilter] = useState("all")
-
   return (
     <section id="projects" className="py-20 relative min-h-screen">
       <div className="container mx-auto px-6">

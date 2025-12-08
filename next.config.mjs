@@ -7,7 +7,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  
+
   // Video Editor Portfolio optimizations
   images: {
     unoptimized: false,
@@ -16,12 +16,12 @@ const nextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
-  
+
   // Performance optimizations
   experimental: {
     optimizePackageImports: ['lucide-react', 'framer-motion', 'gsap'],
   },
-  
+
   // Video streaming support
   async headers() {
     return [
@@ -55,21 +55,8 @@ const nextConfig = {
     ];
   },
 
-  // Webpack optimizations for video editing portfolio
+  // Webpack optimizations
   webpack: (config, { isServer }) => {
-    // Add support for video files
-    config.module.rules.push({
-      test: /\.(mp4|webm|ogg|swf|ogv)$/,
-      use: {
-        loader: 'file-loader',
-        options: {
-          publicPath: '/_next/static/videos/',
-          outputPath: 'static/videos/',
-          name: '[name].[hash].[ext]',
-        },
-      },
-    });
-
     // Optimize GSAP bundle
     if (!isServer) {
       config.resolve.fallback = {
