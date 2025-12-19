@@ -41,6 +41,27 @@ export default function ProjectsSection() {
             </div>
           </motion.div>
         </div>
+
+        {/* YouTube Shorts Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+          {["XVUImBknRUE", "ki8fboIiB5M", "4LbDsJZhTYc", "_JpUNyaboY4"].map((id, index) => (
+            <motion.div
+              key={id}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 * index, duration: 0.8 }}
+              className="relative pt-[177.78%] rounded-lg overflow-hidden shadow-lg bg-black/50"
+            >
+              <iframe
+                src={`https://www.youtube.com/embed/${id}`}
+                className="absolute inset-0 w-full h-full"
+                title={`YouTube Short ${index + 1}`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </motion.div>
+          ))}
+        </div>
       </div>
     </section>
   )
